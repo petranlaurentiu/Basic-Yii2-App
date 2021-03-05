@@ -1,3 +1,6 @@
-# Form Model
-# Add existing project
- Basic Yii2 App
+# Add existing project to Yii2
+Imported:
+Bootstrap4
+JS
+Fontawesome
+Jquery
