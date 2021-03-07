@@ -5,4 +5,6 @@ JS
 Fontawesome
 Jquery
 
-<img src="/web/img/Preview.JPG" height="600px">
+ <a href="https://github.com/yiisoft" target="_blank">
+        <img src="/web/img/Preview.JPG" height="600px">
+    </a>
