@@ -17,15 +17,23 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
+    // public $sourcepath = '';
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'css/styles.css',
+        'https://use.fontawesome.com/releases/v5.13.0/js/all.js',
+        'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700',
+        'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i'
     ];
     public $js = [
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js',
+        'js/scripts.js',
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js'
     ];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap4\BootstrapAsset',
+        // 'yii\web\YiiAsset',
+        // 'yii\bootstrap4\BootstrapAsset',
     ];
 }
