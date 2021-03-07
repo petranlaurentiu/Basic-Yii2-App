@@ -4,3 +4,5 @@ Bootstrap4
 JS
 Fontawesome
 Jquery
+
+<img src="/web/img/Preview.JPG" height="600px">
